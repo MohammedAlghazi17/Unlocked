@@ -51,7 +51,24 @@ $image_url='unlocked.jpg';
 
 <title>UNLOCKED : Login</title>
 
-
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">UNLOCKED</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="portfolio.html">LIFESTYLE</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="resturant.html">RESTURANTS</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="gym.html">GYM</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="hotel.html">HOTEL</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">ABOUT</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.php">Login/Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+		
 <div class="container">
 	<center><h2>Welcome, Please Login to continue.</h2>
 	<div class="row">
